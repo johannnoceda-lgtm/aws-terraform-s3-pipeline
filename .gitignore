@@ -1,0 +1,16 @@
+# Local .terraform folder (contains heavy provider binaries)
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State files (contains sensitive data)
+*.tfstate
+*.tfstate.backup
+
+# Crash logs & Local variables
+*.crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
